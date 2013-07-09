@@ -47,6 +47,22 @@ git clone git://github.com/peterhough/rapid-php.git .
 php composer.phar self-update
 php composer.phar install
 </code></pre>
+
+<p>Point your VirtualHost at /public<br>
+Setting APPLICATION_ENV to "development" will enable debug mode in Slim.</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerName localhost
+    DocumentRoot /path/to/my/project/dir/public
+    SetEnv APPLICATION_ENV "development"
+    &lt;Directory /path/to/my/project/dir/public&gt;
+        DirectoryIndex index.php
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</code></pre>
       </section>
     </div>
 
