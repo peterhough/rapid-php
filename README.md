@@ -13,7 +13,8 @@ Installation
     php composer.phar self-update
     php composer.phar install
 
-Then point your VirtualHost at /public setting APPLICATION_ENV to development will enable debug mode in Slim
+Then point your VirtualHost at /public  
+Setting APPLICATION_ENV to development will enable debug mode in Slim.
 
     <VirtualHost *:80>
         ServerName localhost
