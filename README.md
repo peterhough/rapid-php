@@ -4,7 +4,7 @@ Rapid PHP
 Slim Framework - http://www.slimframework.com  
 RedBeanPHP - http://www.redbeanphp.com
 
-A skeleton project for rapid PHP prototyping using the Slim framework and the RedBeanPHP ORM.
+A skeleton project for rapid prototyping using PHP, the Slim framework and the RedBeanPHP ORM.
 
 Installation
 ------------
