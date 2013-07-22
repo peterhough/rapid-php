@@ -14,7 +14,7 @@ require 'configure.php';
 /**
  * Load the controllers
  */
-foreach (glob("controllers/*.php") as $filename) {
+foreach (glob("controller/*.php") as $filename) {
     require $filename;
 }
 

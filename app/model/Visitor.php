@@ -1,8 +1,8 @@
 <?php
 
-namespace app\models;
+namespace app\model;
 
-class ModelVisitor extends \RedBean_SimpleModel {
+class Visitor extends \RedBean_SimpleModel {
     
     public function name() {
         return $this->name;

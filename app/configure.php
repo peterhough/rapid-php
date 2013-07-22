@@ -16,7 +16,7 @@ $app = \Slim\Slim::getInstance();
 $app->config(array(
     'debug'          => ($production) ? false : true,
     'view'           => new lib\LayoutView(),
-    'templates.path' => 'views'
+    'templates.path' => 'view'
 ));
 
 R::setup(
