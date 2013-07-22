@@ -4,7 +4,7 @@ Rapid PHP
 Slim Framework - http://www.slimframework.com  
 RedBeanPHP - http://www.redbeanphp.com
 
-A skeleton project for rapid PHP prototyping using the Slim framework and the RedBeanPHP ORM.
+A skeleton project for rapid prototyping using PHP, the Slim framework and the RedBeanPHP ORM.
 
 Installation
 ------------
@@ -13,7 +13,8 @@ Installation
     php composer.phar self-update
     php composer.phar install
 
-Then point your VirtualHost at /public setting APPLICATION_ENV to development will enable debug mode in Slim
+Point your VirtualHost at /public  
+Setting APPLICATION_ENV to "development" will enable debug mode in Slim.
 
     <VirtualHost *:80>
         ServerName localhost
